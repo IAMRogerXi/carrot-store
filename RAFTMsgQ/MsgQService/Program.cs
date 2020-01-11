@@ -21,7 +21,6 @@ namespace MsgQService
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    // Test
                     webBuilder.UseStartup<Startup>();
                 });
     }
