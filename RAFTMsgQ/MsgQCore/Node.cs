@@ -2,7 +2,7 @@
 
 namespace MsgQCore
 {
-    public class Class1
+    public class Node
     {
     }
 }
