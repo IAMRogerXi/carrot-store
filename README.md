@@ -1,5 +1,7 @@
 # About Carrot Store
-This is a message queue based on RAFT algorithm.
+This is a distributed message queue based on RAFT.
+
+## How it is designed? ##
 
 ## How to start? ##
 
