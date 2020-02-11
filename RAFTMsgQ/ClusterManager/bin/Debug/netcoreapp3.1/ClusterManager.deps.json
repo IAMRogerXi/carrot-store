@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ClusterManager/1.0.0": {
+        "dependencies": {
+          "MsgQCore": "1.0.0"
+        },
+        "runtime": {
+          "ClusterManager.dll": {}
+        }
+      },
+      "MsgQCore/1.0.0": {
+        "runtime": {
+          "MsgQCore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClusterManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MsgQCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

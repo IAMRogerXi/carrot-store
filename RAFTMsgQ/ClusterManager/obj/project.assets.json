@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MsgQCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MsgQCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MsgQCore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MsgQCore/1.0.0": {
+      "type": "project",
+      "path": "../MsgQCore/MsgQCore.csproj",
+      "msbuildProject": "../MsgQCore/MsgQCore.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "MsgQCore >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\roxi\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\roxi\\Documents\\GitHub\\RAFTMsgQ\\RAFTMsgQ\\ClusterManager\\ClusterManager.csproj",
+      "projectName": "ClusterManager",
+      "projectPath": "C:\\Users\\roxi\\Documents\\GitHub\\RAFTMsgQ\\RAFTMsgQ\\ClusterManager\\ClusterManager.csproj",
+      "packagesPath": "C:\\Users\\roxi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\roxi\\Documents\\GitHub\\RAFTMsgQ\\RAFTMsgQ\\ClusterManager\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\roxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\roxi\\Documents\\GitHub\\RAFTMsgQ\\RAFTMsgQ\\MsgQCore\\MsgQCore.csproj": {
+              "projectPath": "C:\\Users\\roxi\\Documents\\GitHub\\RAFTMsgQ\\RAFTMsgQ\\MsgQCore\\MsgQCore.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

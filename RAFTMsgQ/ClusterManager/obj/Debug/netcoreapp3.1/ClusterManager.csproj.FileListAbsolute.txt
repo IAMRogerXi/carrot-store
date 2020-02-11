@@ -1,0 +1,14 @@
+C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\ClusterManager\bin\Debug\netcoreapp3.1\ClusterManager.exe
+C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\ClusterManager\bin\Debug\netcoreapp3.1\ClusterManager.deps.json
+C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\ClusterManager\bin\Debug\netcoreapp3.1\ClusterManager.runtimeconfig.json
+C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\ClusterManager\bin\Debug\netcoreapp3.1\ClusterManager.runtimeconfig.dev.json
+C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\ClusterManager\bin\Debug\netcoreapp3.1\ClusterManager.dll
+C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\ClusterManager\bin\Debug\netcoreapp3.1\ClusterManager.pdb
+C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\ClusterManager\obj\Debug\netcoreapp3.1\ClusterManager.csprojAssemblyReference.cache
+C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\ClusterManager\obj\Debug\netcoreapp3.1\ClusterManager.AssemblyInfoInputs.cache
+C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\ClusterManager\obj\Debug\netcoreapp3.1\ClusterManager.AssemblyInfo.cs
+C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\ClusterManager\obj\Debug\netcoreapp3.1\ClusterManager.dll
+C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\ClusterManager\obj\Debug\netcoreapp3.1\ClusterManager.pdb
+C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\ClusterManager\bin\Debug\netcoreapp3.1\MsgQCore.dll
+C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\ClusterManager\bin\Debug\netcoreapp3.1\MsgQCore.pdb
+C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\ClusterManager\obj\Debug\netcoreapp3.1\ClusterManager.csproj.CopyComplete

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MsgQCore
+namespace CarrotStore.MsgQCore
 {
-    class Cluster
+    class Storage
     {
     }
 }
