@@ -1,4 +1,4 @@
-# RAFTMsgQ
+# About Carrot Store
 This is a message queue based on RAFT algorithm.
 
 ## How to start? ##
