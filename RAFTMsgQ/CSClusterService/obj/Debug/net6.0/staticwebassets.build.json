@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "W6y2ZcXcrsTl4iYMUSsMYaov9ULVa+qE5KNg0YWbNCo=",
+  "Source": "CSClusterService",
+  "BasePath": "_content/CSClusterService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

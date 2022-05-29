@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uBgapC+nEhxC53yZC3e2I5mjFaijLefLfb4wCL//fOI=",
+  "Source": "MsgQService",
+  "BasePath": "_content/MsgQService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

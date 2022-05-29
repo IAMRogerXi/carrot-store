@@ -1,8 +1,0 @@
-C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\MsgQCore\bin\Debug\netstandard2.0\MsgQCore.deps.json
-C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\MsgQCore\bin\Debug\netstandard2.0\MsgQCore.dll
-C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\MsgQCore\bin\Debug\netstandard2.0\MsgQCore.pdb
-C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\MsgQCore\obj\Debug\netstandard2.0\MsgQCore.csprojAssemblyReference.cache
-C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\MsgQCore\obj\Debug\netstandard2.0\MsgQCore.AssemblyInfoInputs.cache
-C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\MsgQCore\obj\Debug\netstandard2.0\MsgQCore.AssemblyInfo.cs
-C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\MsgQCore\obj\Debug\netstandard2.0\MsgQCore.dll
-C:\Users\roxi\Documents\GitHub\RAFTMsgQ\RAFTMsgQ\MsgQCore\obj\Debug\netstandard2.0\MsgQCore.pdb
