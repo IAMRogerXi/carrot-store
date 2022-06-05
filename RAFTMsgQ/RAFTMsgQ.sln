@@ -5,23 +5,25 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterManager", "ClusterManager\ClusterManager.csproj", "{831F7B28-831F-43A4-B077-DA40EB0687D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSClusterService", "CSClusterService\CSClusterService.csproj", "{82230CDD-A502-44BA-964B-7CC88BD7DD77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSClusterService", "CSClusterService\CSClusterService.csproj", "{82230CDD-A502-44BA-964B-7CC88BD7DD77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSClusterManagementService", "CSClusterManagementService\CSClusterManagementService.csproj", "{D2752246-E716-4792-A22F-A4C13764AA74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSClusterManagementService", "CSClusterManagementService\CSClusterManagementService.csproj", "{D2752246-E716-4792-A22F-A4C13764AA74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage", "Storage\Storage.csproj", "{C6919C88-9FFE-4749-8855-DE9A8FD52F10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storage", "Storage\Storage.csproj", "{C6919C88-9FFE-4749-8855-DE9A8FD52F10}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{93F5189F-D3D7-428C-BC8F-108EA5BC061B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterContract", "ClusterContract\ClusterContract.csproj", "{B7F5E3E3-E40E-4E83-A018-B82609FDB43C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterContract", "ClusterContract\ClusterContract.csproj", "{B7F5E3E3-E40E-4E83-A018-B82609FDB43C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cluster", "Cluster\Cluster.csproj", "{FF2BBA3B-254F-4E40-9BB2-50D653869CAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cluster", "Cluster\Cluster.csproj", "{FF2BBA3B-254F-4E40-9BB2-50D653869CAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSMessageService", "CSMessageService\CSMessageService.csproj", "{09D604BB-4D2E-4581-A4D0-637F0978B723}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSMessageService", "CSMessageService\CSMessageService.csproj", "{09D604BB-4D2E-4581-A4D0-637F0978B723}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageContract", "MessageContract\MessageContract.csproj", "{F07085DC-EDA0-4AC1-AEBD-3F71B5ADC05B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageContract", "MessageContract\MessageContract.csproj", "{F07085DC-EDA0-4AC1-AEBD-3F71B5ADC05B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Message", "Message\Message.csproj", "{9B27435A-0F5D-431E-9148-C1EB1F7DD7D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Message", "Message\Message.csproj", "{9B27435A-0F5D-431E-9148-C1EB1F7DD7D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeTest", "Test\NodeTest\NodeTest.csproj", "{D6936037-614C-4DF0-B973-2163A4B17457}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,9 +67,16 @@ Global
 		{9B27435A-0F5D-431E-9148-C1EB1F7DD7D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B27435A-0F5D-431E-9148-C1EB1F7DD7D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B27435A-0F5D-431E-9148-C1EB1F7DD7D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6936037-614C-4DF0-B973-2163A4B17457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6936037-614C-4DF0-B973-2163A4B17457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6936037-614C-4DF0-B973-2163A4B17457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6936037-614C-4DF0-B973-2163A4B17457}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6936037-614C-4DF0-B973-2163A4B17457} = {93F5189F-D3D7-428C-BC8F-108EA5BC061B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D1E71B53-8F8D-4F97-9457-38CEEC8D461E}
