@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FuZjS0+3zctRLmQ8Muxbux7Ww/OrS3UlAHrlpYgVjdPPMi9doVcHyluQ/X9FafU1WdCxKYlFMjdC+wCQ5xvejQ==",
+  "dgSpecHash": "V6atRmNDvbHZsG5TJfbP0ICEgu00okNpFAMddWMZVAM05ZyRajz2cAnIyLthnuOYqHeCP6yKjjbzFQsSLMTdYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\RAFTMsgQ\\Message\\Message.csproj",
+  "projectFilePath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\RAFTMsgQ\\Message\\ClientMessage.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ControlMessage/1.0.0": {
+        "runtime": {
+          "ControlMessage.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ControlMessage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

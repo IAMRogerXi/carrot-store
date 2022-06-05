@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ClusterContract
 {
-    internal interface ICluster
+    public interface ICluster
     {
+        INode[] Nodes { get; set; }
+
+        public void Initialize();
     }
 }

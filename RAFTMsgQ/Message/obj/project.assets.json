@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roxi\\source\\repos\\carrot-store\\RAFTMsgQ\\Message\\Message.csproj",
-      "projectName": "Message",
-      "projectPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\RAFTMsgQ\\Message\\Message.csproj",
+      "projectUniqueName": "C:\\Users\\roxi\\source\\repos\\carrot-store\\RAFTMsgQ\\Message\\ClientMessage.csproj",
+      "projectName": "ClientMessage",
+      "projectPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\RAFTMsgQ\\Message\\ClientMessage.csproj",
       "packagesPath": "C:\\Users\\roxi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\RAFTMsgQ\\Message\\obj\\",
       "projectStyle": "PackageReference",

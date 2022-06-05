@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ugnUMCtRja2NmLUQbDp/BwJpZafDZk8hWHbqqI0cd/cC30dvbecfY+nmG0nXomjlqry6CIW9hHQQcEiElUaTIw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\RAFTMsgQ\\CSClusterManagementWeb\\CSClusterManagementWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\roxi\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512"
+  ],
+  "logs": []
+}

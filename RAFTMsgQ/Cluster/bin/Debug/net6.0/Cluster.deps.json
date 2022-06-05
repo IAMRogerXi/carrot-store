@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "Cluster/1.0.0": {
+        "dependencies": {
+          "ClusterContract": "1.0.0"
+        },
         "runtime": {
           "Cluster.dll": {}
+        }
+      },
+      "ClusterContract/1.0.0": {
+        "runtime": {
+          "ClusterContract.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Cluster/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClusterContract/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

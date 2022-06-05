@@ -1,0 +1,12 @@
+C:\Users\roxi\source\repos\carrot-store\RAFTMsgQ\CSClusterManagementShell\bin\Debug\net6.0\CSClusterManagementShell.deps.json
+C:\Users\roxi\source\repos\carrot-store\RAFTMsgQ\CSClusterManagementShell\bin\Debug\net6.0\CSClusterManagementShell.dll
+C:\Users\roxi\source\repos\carrot-store\RAFTMsgQ\CSClusterManagementShell\bin\Debug\net6.0\CSClusterManagementShell.pdb
+C:\Users\roxi\source\repos\carrot-store\RAFTMsgQ\CSClusterManagementShell\obj\Debug\net6.0\CSClusterManagementShell.csproj.AssemblyReference.cache
+C:\Users\roxi\source\repos\carrot-store\RAFTMsgQ\CSClusterManagementShell\obj\Debug\net6.0\CSClusterManagementShell.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roxi\source\repos\carrot-store\RAFTMsgQ\CSClusterManagementShell\obj\Debug\net6.0\CSClusterManagementShell.AssemblyInfoInputs.cache
+C:\Users\roxi\source\repos\carrot-store\RAFTMsgQ\CSClusterManagementShell\obj\Debug\net6.0\CSClusterManagementShell.AssemblyInfo.cs
+C:\Users\roxi\source\repos\carrot-store\RAFTMsgQ\CSClusterManagementShell\obj\Debug\net6.0\CSClusterManagementShell.csproj.CoreCompileInputs.cache
+C:\Users\roxi\source\repos\carrot-store\RAFTMsgQ\CSClusterManagementShell\obj\Debug\net6.0\CSClusterManagementShell.dll
+C:\Users\roxi\source\repos\carrot-store\RAFTMsgQ\CSClusterManagementShell\obj\Debug\net6.0\refint\CSClusterManagementShell.dll
+C:\Users\roxi\source\repos\carrot-store\RAFTMsgQ\CSClusterManagementShell\obj\Debug\net6.0\CSClusterManagementShell.pdb
+C:\Users\roxi\source\repos\carrot-store\RAFTMsgQ\CSClusterManagementShell\obj\Debug\net6.0\ref\CSClusterManagementShell.dll
