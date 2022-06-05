@@ -19,5 +19,10 @@ namespace Cluster
         {
             throw new NotImplementedException();
         }
+
+        private Task ReplicateDataAsync()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
