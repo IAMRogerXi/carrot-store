@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roxi\\source\\repos\\carrot-store\\RAFTMsgQ\\Storage\\Storage.csproj",
-      "projectName": "Storage",
-      "projectPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\RAFTMsgQ\\Storage\\Storage.csproj",
+      "projectUniqueName": "C:\\Users\\roxi\\source\\repos\\carrot-store\\RAFTMsgQ\\Storage\\StorageServiceContract.csproj",
+      "projectName": "StorageServiceContract",
+      "projectPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\RAFTMsgQ\\Storage\\StorageServiceContract.csproj",
       "packagesPath": "C:\\Users\\roxi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\RAFTMsgQ\\Storage\\obj\\",
       "projectStyle": "PackageReference",
