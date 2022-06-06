@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "Cluster/1.0.0": {
         "dependencies": {
-          "ClusterContract": "1.0.0"
+          "ClusterContract": "1.0.0",
+          "SvcClient": "1.0.0"
         },
         "runtime": {
           "Cluster.dll": {}
@@ -26,6 +27,11 @@
         "runtime": {
           "NodeRoleContract.dll": {}
         }
+      },
+      "SvcClient/1.0.0": {
+        "runtime": {
+          "SvcClient.dll": {}
+        }
       }
     }
   },
@@ -41,6 +47,11 @@
       "sha512": ""
     },
     "NodeRoleContract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SvcClient/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

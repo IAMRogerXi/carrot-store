@@ -24,6 +24,16 @@
         "runtime": {
           "bin/placeholder/NodeRoleContract.dll": {}
         }
+      },
+      "SvcClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SvcClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SvcClient.dll": {}
+        }
       }
     }
   },
@@ -37,11 +47,17 @@
       "type": "project",
       "path": "../NodeRoleContract/NodeRoleContract.csproj",
       "msbuildProject": "../NodeRoleContract/NodeRoleContract.csproj"
+    },
+    "SvcClient/1.0.0": {
+      "type": "project",
+      "path": "../SvcClient/SvcClient.csproj",
+      "msbuildProject": "../SvcClient/SvcClient.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "ClusterContract >= 1.0.0"
+      "ClusterContract >= 1.0.0",
+      "SvcClient >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -79,6 +95,9 @@
           "projectReferences": {
             "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\ClusterContract\\ClusterContract.csproj": {
               "projectPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\ClusterContract\\ClusterContract.csproj"
+            },
+            "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\SvcClient\\SvcClient.csproj": {
+              "projectPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\SvcClient\\SvcClient.csproj"
             }
           }
         }

@@ -30,3 +30,5 @@ C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\Cluster\obj\Debug\net6.0
 C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\Cluster\obj\Debug\net6.0\ref\Cluster.dll
 C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\Cluster\bin\Debug\net6.0\NodeRoleContract.dll
 C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\Cluster\bin\Debug\net6.0\NodeRoleContract.pdb
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\Cluster\bin\Debug\net6.0\SvcClient.dll
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\Cluster\bin\Debug\net6.0\SvcClient.pdb

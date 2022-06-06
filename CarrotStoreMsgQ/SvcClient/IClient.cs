@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SvcClient
 {
-    internal interface IClient
+    public interface IClient
     {
     }
 }

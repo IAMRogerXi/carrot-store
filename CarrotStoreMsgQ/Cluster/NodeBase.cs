@@ -49,7 +49,7 @@ namespace Cluster
 
         public Task StartLeaderElectionAsync()
         {
-            leaderElectionSvc.SendElectionNotification();
+            leaderElectionSvc.SendElectionNotification(this.Cluseter);
             leaderElectionSvc.Vote();
 
             return null;
