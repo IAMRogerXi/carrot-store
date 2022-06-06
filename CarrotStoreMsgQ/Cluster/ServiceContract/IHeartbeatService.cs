@@ -9,7 +9,7 @@ namespace Cluster.ServiceContract
 {
     public interface IHeartbeatService
     {
-        void SendHeartbeat();
+        void SendHeartbeat(ICluster cluster);
 
         void ReceiveHeartbeat();
     }
