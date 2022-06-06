@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SvcClient", "SvcClient\SvcC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlMessage", "ControlMessage\ControlMessage.csproj", "{1D0850E2-19C7-4609-8D61-87954D794C25}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NodeTest", "UnitTest\NodeTest\NodeTest.csproj", "{CC390E4C-7CA9-466B-9380-04E03B8B25C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.Node", "UnitTest\NodeTest\Test.Node.csproj", "{CC390E4C-7CA9-466B-9380-04E03B8B25C8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "E2ETest", "E2ETest", "{C1D39A45-4642-4B00-9F11-2A5841D1C3AB}"
 EndProject

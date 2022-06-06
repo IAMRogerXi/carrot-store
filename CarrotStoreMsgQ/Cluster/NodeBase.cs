@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ClusterContract;
 using NodeRoleContract;
-using Cluster.Service;
+using Cluster.ServiceContract;
 
 namespace Cluster
 {

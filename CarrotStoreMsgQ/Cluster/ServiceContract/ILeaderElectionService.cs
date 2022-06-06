@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ClusterContract;
 
-namespace Cluster.Service
+namespace Cluster.ServiceContract
 {
     internal interface ILeaderElectionService
     {

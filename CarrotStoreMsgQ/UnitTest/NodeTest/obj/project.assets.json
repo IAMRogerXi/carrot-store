@@ -6211,9 +6211,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\UnitTest\\NodeTest\\NodeTest.csproj",
-      "projectName": "NodeTest",
-      "projectPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\UnitTest\\NodeTest\\NodeTest.csproj",
+      "projectUniqueName": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\UnitTest\\NodeTest\\Test.Node.csproj",
+      "projectName": "Test.Node",
+      "projectPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\UnitTest\\NodeTest\\Test.Node.csproj",
       "packagesPath": "C:\\Users\\roxi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\UnitTest\\NodeTest\\obj\\",
       "projectStyle": "PackageReference",
