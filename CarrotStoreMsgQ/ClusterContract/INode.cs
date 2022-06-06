@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using NodeRoleContract;
 
 namespace ClusterContract
 {
@@ -18,6 +19,8 @@ namespace ClusterContract
         ICluster Cluseter { get; set; }
 
         bool IsLeader { get; }
+
+        INodeRole CurrentRole { get; set; }
 
         public Task AppendDataAsync<T>(T data);
 

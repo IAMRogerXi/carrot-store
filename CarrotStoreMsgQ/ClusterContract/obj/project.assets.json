@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "NodeRoleContract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/NodeRoleContract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NodeRoleContract.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "NodeRoleContract/1.0.0": {
+      "type": "project",
+      "path": "../NodeRoleContract/NodeRoleContract.csproj",
+      "msbuildProject": "../NodeRoleContract/NodeRoleContract.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "NodeRoleContract >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\roxi\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\NodeRoleContract\\NodeRoleContract.csproj": {
+              "projectPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\NodeRoleContract\\NodeRoleContract.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

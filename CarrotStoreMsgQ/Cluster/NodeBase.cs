@@ -5,6 +5,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using ClusterContract;
+using NodeRoleContract;
 
 namespace Cluster
 {
@@ -21,6 +22,8 @@ namespace Cluster
         public IPAddress IP { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public string FQDN { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+        public INodeRole CurrentRole { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public NodeBase(ICluster cluster)
         {

@@ -8,5 +8,6 @@ namespace MessageContract
 {
     public interface IMessage
     {
+        string MessageID { get; set; }
     }
 }

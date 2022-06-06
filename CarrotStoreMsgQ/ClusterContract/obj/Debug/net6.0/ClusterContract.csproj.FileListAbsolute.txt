@@ -22,3 +22,6 @@ C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\ClusterContract\obj\Debu
 C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\ClusterContract\obj\Debug\net6.0\refint\ClusterContract.dll
 C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\ClusterContract\obj\Debug\net6.0\ClusterContract.pdb
 C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\ClusterContract\obj\Debug\net6.0\ref\ClusterContract.dll
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\ClusterContract\bin\Debug\net6.0\NodeRoleContract.dll
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\ClusterContract\bin\Debug\net6.0\NodeRoleContract.pdb
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\ClusterContract\obj\Debug\net6.0\ClusterContract.csproj.CopyComplete

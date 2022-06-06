@@ -1,9 +1,9 @@
 ﻿namespace CSClusterService.Service.Contract
 {
-    public interface IHeartBeatService
+    public interface IHeartbeatService
     {
-        void SendHeartBeat();
+        void SendHeartbeat();
 
-        void ReceiveHeartBeat();
+        void ReceiveHeartbeat();
     }
 }

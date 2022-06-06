@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "ControlMessage/1.0.0": {
+        "dependencies": {
+          "MessageContract": "1.0.0"
+        },
         "runtime": {
           "ControlMessage.dll": {}
+        }
+      },
+      "MessageContract/1.0.0": {
+        "runtime": {
+          "MessageContract.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ControlMessage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MessageContract/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

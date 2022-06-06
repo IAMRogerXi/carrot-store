@@ -34,3 +34,6 @@ C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\ClientMessage\obj\Debug\
 C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\ClientMessage\obj\Debug\net6.0\refint\ClientMessage.dll
 C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\ClientMessage\obj\Debug\net6.0\ClientMessage.pdb
 C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\ClientMessage\obj\Debug\net6.0\ref\ClientMessage.dll
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\ClientMessage\bin\Debug\net6.0\MessageContract.dll
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\ClientMessage\bin\Debug\net6.0\MessageContract.pdb
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\ClientMessage\obj\Debug\net6.0\ClientMessage.csproj.CopyComplete

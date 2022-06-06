@@ -15,8 +15,16 @@
         }
       },
       "ClusterContract/1.0.0": {
+        "dependencies": {
+          "NodeRoleContract": "1.0.0"
+        },
         "runtime": {
           "ClusterContract.dll": {}
+        }
+      },
+      "NodeRoleContract/1.0.0": {
+        "runtime": {
+          "NodeRoleContract.dll": {}
         }
       }
     }
@@ -28,6 +36,11 @@
       "sha512": ""
     },
     "ClusterContract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NodeRoleContract/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

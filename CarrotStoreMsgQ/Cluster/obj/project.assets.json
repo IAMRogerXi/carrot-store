@@ -5,11 +5,24 @@
       "ClusterContract/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NodeRoleContract": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ClusterContract.dll": {}
         },
         "runtime": {
           "bin/placeholder/ClusterContract.dll": {}
+        }
+      },
+      "NodeRoleContract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/NodeRoleContract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NodeRoleContract.dll": {}
         }
       }
     }
@@ -19,6 +32,11 @@
       "type": "project",
       "path": "../ClusterContract/ClusterContract.csproj",
       "msbuildProject": "../ClusterContract/ClusterContract.csproj"
+    },
+    "NodeRoleContract/1.0.0": {
+      "type": "project",
+      "path": "../NodeRoleContract/NodeRoleContract.csproj",
+      "msbuildProject": "../NodeRoleContract/NodeRoleContract.csproj"
     }
   },
   "projectFileDependencyGroups": {
