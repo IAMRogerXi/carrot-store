@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ClusterContract;
 using NodeRoleContract;
+using Cluster.Service;
 
 namespace Cluster
 {
@@ -17,6 +18,8 @@ namespace Cluster
 
         public abstract bool IsLeader { get; }
 
+        public ILeaderElectionService leaderElectionSvc { get; set; }
+
         public string Identity { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public IPAddress IP { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
@@ -25,9 +28,16 @@ namespace Cluster
 
         public INodeRole CurrentRole { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
-        public NodeBase(ICluster cluster)
+        protected NodeBase(ICluster cluster)
         {
             this.cluster = cluster;
+        }
+
+        public NodeBase(ICluster cluster,
+            ILeaderElectionService leaderElectionSvc)
+        {
+            this.cluster = cluster;
+            this.leaderElectionSvc = leaderElectionSvc;
         }
 
         public void Initialize()
@@ -39,7 +49,10 @@ namespace Cluster
 
         public Task StartLeaderElectionAsync()
         {
-            throw new NotImplementedException();
+            leaderElectionSvc.SendElectionNotification();
+            leaderElectionSvc.Vote();
+
+            return null;
         }
     }
 }
