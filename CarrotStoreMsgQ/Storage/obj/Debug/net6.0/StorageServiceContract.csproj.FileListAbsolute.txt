@@ -1,0 +1,12 @@
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\Storage\bin\Debug\net6.0\StorageServiceContract.deps.json
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\Storage\bin\Debug\net6.0\StorageServiceContract.dll
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\Storage\bin\Debug\net6.0\StorageServiceContract.pdb
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\Storage\obj\Debug\net6.0\StorageServiceContract.csproj.AssemblyReference.cache
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\Storage\obj\Debug\net6.0\StorageServiceContract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\Storage\obj\Debug\net6.0\StorageServiceContract.AssemblyInfoInputs.cache
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\Storage\obj\Debug\net6.0\StorageServiceContract.AssemblyInfo.cs
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\Storage\obj\Debug\net6.0\StorageServiceContract.csproj.CoreCompileInputs.cache
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\Storage\obj\Debug\net6.0\StorageServiceContract.dll
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\Storage\obj\Debug\net6.0\refint\StorageServiceContract.dll
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\Storage\obj\Debug\net6.0\StorageServiceContract.pdb
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\Storage\obj\Debug\net6.0\ref\StorageServiceContract.dll
