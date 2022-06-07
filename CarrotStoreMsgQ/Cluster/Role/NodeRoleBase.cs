@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using ClusterContract;
 using NodeRoleContract;
 
-namespace Cluster
+namespace Cluster.Role
 {
     public abstract class NodeRoleBase : INodeRole
     {

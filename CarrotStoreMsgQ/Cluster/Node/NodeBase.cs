@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using ClusterContract;
 using NodeRoleContract;
 
-namespace Cluster
+namespace Cluster.Node
 {
     internal abstract class NodeBase : INode
     {
@@ -41,7 +41,7 @@ namespace Cluster
 
         public async Task StartLeaderElectionAsync()
         {
-            LeaderElectionService.SendElectionNotification(this.Cluster);
+            LeaderElectionService.SendElectionNotification(Cluster);
             LeaderElectionService.Vote();
         }
 

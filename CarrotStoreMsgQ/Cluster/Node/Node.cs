@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ClusterContract;
 
-namespace Cluster
+namespace Cluster.Node
 {
     internal class Node : NodeBase
     {
