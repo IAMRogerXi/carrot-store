@@ -6211,11 +6211,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\UnitTest\\NodeTest\\Test.Node.csproj",
-      "projectName": "Test.Node",
-      "projectPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\UnitTest\\NodeTest\\Test.Node.csproj",
+      "projectUniqueName": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\UnitTest\\Test.Cluster\\Test.Cluster.csproj",
+      "projectName": "Test.Cluster",
+      "projectPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\UnitTest\\Test.Cluster\\Test.Cluster.csproj",
       "packagesPath": "C:\\Users\\roxi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\UnitTest\\NodeTest\\obj\\",
+      "outputPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\UnitTest\\Test.Cluster\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

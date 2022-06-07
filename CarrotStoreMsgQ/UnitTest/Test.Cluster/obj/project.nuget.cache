@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3Af03A+Rbaj8OBS7PcT6l5s3y1Gv8xBV1ncbX/nLbCr2m1ODvBUVP1LtTV7GTx7oAiazCuyGO0lHD6eAh/K3lQ==",
+  "dgSpecHash": "tbboAD8wiUslGCTbJFSJyt5ZAJh+LPqYxwz4kUVmP2wimwygmeXqjmarSOYDsG7L++rRoKkrMIxPMFV0XS/l3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\UnitTest\\NodeTest\\Test.Node.csproj",
+  "projectFilePath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\UnitTest\\Test.Cluster\\Test.Cluster.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\roxi\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\roxi\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

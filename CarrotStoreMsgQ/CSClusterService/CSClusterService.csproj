@@ -17,4 +17,8 @@
     <Folder Include="Service\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Cluster\Cluster.csproj" />
+  </ItemGroup>
+
 </Project>

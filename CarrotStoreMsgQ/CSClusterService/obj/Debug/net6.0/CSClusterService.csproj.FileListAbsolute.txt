@@ -52,3 +52,15 @@ C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\CSClusterService\obj\Deb
 C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\CSClusterService\obj\Debug\net6.0\CSClusterService.pdb
 C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\CSClusterService\obj\Debug\net6.0\CSClusterService.genruntimeconfig.cache
 C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\CSClusterService\obj\Debug\net6.0\ref\CSClusterService.dll
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\CSClusterService\bin\Debug\net6.0\Cluster.dll
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\CSClusterService\bin\Debug\net6.0\ClusterContract.dll
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\CSClusterService\bin\Debug\net6.0\ControlMessage.dll
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\CSClusterService\bin\Debug\net6.0\MessageContract.dll
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\CSClusterService\bin\Debug\net6.0\NodeRoleContract.dll
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\CSClusterService\bin\Debug\net6.0\SvcClient.dll
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\CSClusterService\bin\Debug\net6.0\Cluster.pdb
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\CSClusterService\bin\Debug\net6.0\ClusterContract.pdb
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\CSClusterService\bin\Debug\net6.0\ControlMessage.pdb
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\CSClusterService\bin\Debug\net6.0\MessageContract.pdb
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\CSClusterService\bin\Debug\net6.0\NodeRoleContract.pdb
+C:\Users\roxi\source\repos\carrot-store\CarrotStoreMsgQ\CSClusterService\bin\Debug\net6.0\SvcClient.pdb

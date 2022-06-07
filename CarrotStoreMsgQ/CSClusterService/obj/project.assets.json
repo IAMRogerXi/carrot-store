@@ -79,6 +79,79 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Cluster/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClusterContract": "1.0.0",
+          "ControlMessage": "1.0.0",
+          "MessageContract": "1.0.0",
+          "SvcClient": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Cluster.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cluster.dll": {}
+        }
+      },
+      "ClusterContract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MessageContract": "1.0.0",
+          "NodeRoleContract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ClusterContract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClusterContract.dll": {}
+        }
+      },
+      "ControlMessage/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MessageContract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ControlMessage.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ControlMessage.dll": {}
+        }
+      },
+      "MessageContract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MessageContract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MessageContract.dll": {}
+        }
+      },
+      "NodeRoleContract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/NodeRoleContract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NodeRoleContract.dll": {}
+        }
+      },
+      "SvcClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SvcClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SvcClient.dll": {}
+        }
       }
     }
   },
@@ -287,10 +360,41 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Cluster/1.0.0": {
+      "type": "project",
+      "path": "../Cluster/Cluster.csproj",
+      "msbuildProject": "../Cluster/Cluster.csproj"
+    },
+    "ClusterContract/1.0.0": {
+      "type": "project",
+      "path": "../ClusterContract/ClusterContract.csproj",
+      "msbuildProject": "../ClusterContract/ClusterContract.csproj"
+    },
+    "ControlMessage/1.0.0": {
+      "type": "project",
+      "path": "../ControlMessage/ControlMessage.csproj",
+      "msbuildProject": "../ControlMessage/ControlMessage.csproj"
+    },
+    "MessageContract/1.0.0": {
+      "type": "project",
+      "path": "../MessageContract/MessageContract.csproj",
+      "msbuildProject": "../MessageContract/MessageContract.csproj"
+    },
+    "NodeRoleContract/1.0.0": {
+      "type": "project",
+      "path": "../NodeRoleContract/NodeRoleContract.csproj",
+      "msbuildProject": "../NodeRoleContract/NodeRoleContract.csproj"
+    },
+    "SvcClient/1.0.0": {
+      "type": "project",
+      "path": "../SvcClient/SvcClient.csproj",
+      "msbuildProject": "../SvcClient/SvcClient.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Cluster >= 1.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.15.1",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
@@ -327,7 +431,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\Cluster\\Cluster.csproj": {
+              "projectPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\Cluster\\Cluster.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
