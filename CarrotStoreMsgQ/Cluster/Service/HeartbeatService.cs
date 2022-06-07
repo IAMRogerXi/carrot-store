@@ -22,42 +22,40 @@ namespace Cluster.Service
         /// If this node is the leader, send the heartbeat to all followers.
         /// </summary>
         /// <param name="cluster"></param>
-        public void SendHeartbeatAsync(ICluster cluster, CancellationToken token)
+        public async Task SendHeartbeatAsync(ICluster cluster, CancellationToken token)
         {
             while (!token.IsCancellationRequested)
             {
                 foreach (var node in cluster.Nodes)
                 {
                     // todo: prepare the http request.
-                    client.PostAsync();
+                    //client.PostAsync();
                 }
 
                 // todo: can i use other method to make the thread sleep?
-                Thread.Sleep(10000);
+                await Task.Delay(10000);
             }
         }
 
-        public void ReceiveHeartbeatAsync(IMessage controlMessage)
+        public async Task ReceiveHeartbeatAsync(IMessage controlMessage)
         {
             throw new NotImplementedException();
         }
 
-        public Task MonitorAsync(Action failureCallback, CancellationToken token)
+        public async Task MonitorAsync(Action failureCallback, CancellationToken token)
         {
             while (!token.IsCancellationRequested)
             {
                 if (CheckHeartbeatRequest())
                 {
                     // todo: can i use other method to make the thread sleep?
-                    Thread.Sleep(10000);
+                    await Task.Delay(10000);
                 }
                 else
                 {
                     failureCallback();
                 }
             }
-
-            return null;
         }
 
         private bool CheckHeartbeatRequest()

@@ -18,6 +18,11 @@ namespace Cluster.Service
             this.svcClient = svcClient;
         }
 
+        public void StartElection()
+        {
+            throw new NotImplementedException();
+        }
+
         /// <summary>
         /// Inform all available nodes about the coming election.
         /// </summary>

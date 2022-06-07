@@ -9,6 +9,8 @@ namespace ClusterContract
 {
     public interface ILeaderElectionService
     {
+        public void StartElection();
+
         public void SendElectionNotification(ICluster cluster);
 
         public void Vote();

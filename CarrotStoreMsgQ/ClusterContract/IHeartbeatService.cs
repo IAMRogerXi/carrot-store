@@ -10,9 +10,9 @@ namespace ClusterContract
 {
     public interface IHeartbeatService
     {
-        void SendHeartbeatAsync(ICluster cluster, CancellationToken token);
+        Task SendHeartbeatAsync(ICluster cluster, CancellationToken token);
 
-        void ReceiveHeartbeatAsync(IMessage controlMessage);
+        Task ReceiveHeartbeatAsync(IMessage controlMessage);
 
         Task MonitorAsync(Action failureCallback, CancellationToken token);
     }

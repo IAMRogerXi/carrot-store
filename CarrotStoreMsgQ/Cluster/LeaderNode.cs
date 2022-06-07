@@ -9,16 +9,11 @@ namespace Cluster
 {
     internal class LeaderNode : NodeBase
     {
+        public LeaderNode(IHeartbeatService heartbeatService, ILeaderElectionService leaderElectionService) : base(heartbeatService, leaderElectionService)
+        {
+        }
+
         public override bool IsLeader => true;
-
-        public LeaderNode(ICluster cluster) : base(cluster)
-        {
-        }
-
-        public override Task AppendDataAsync<T>(T data)
-        {
-            throw new NotImplementedException();
-        }
 
         private Task ReplicateDataAsync()
         {

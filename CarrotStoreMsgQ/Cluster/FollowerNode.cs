@@ -9,16 +9,11 @@ namespace Cluster
 {
     internal class FollowerNode : NodeBase
     {
+        public FollowerNode(IHeartbeatService heartbeatService, ILeaderElectionService leaderElectionService) : base(heartbeatService, leaderElectionService)
+        {
+        }
+
         public override bool IsLeader => false;
-
-        public FollowerNode(ICluster cluster) : base(cluster)
-        {
-        }
-
-        public override Task AppendDataAsync<T>(T data)
-        {
-            throw new NotImplementedException();
-        }
 
         private Task ForwardRequest<T>(T data)
         {

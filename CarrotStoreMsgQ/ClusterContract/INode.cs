@@ -16,16 +16,16 @@ namespace ClusterContract
 
         string FQDN { get; set; }
 
-        ICluster Cluseter { get; set; }
+        ICluster Cluster { get; set; }
 
         bool IsLeader { get; }
 
         INodeRole CurrentRole { get; set; }
-
-        public Task AppendDataAsync<T>(T data);
-
-        public Task StartLeaderElectionAsync();
-
+        
         public void Initialize();
+
+        public Task StartHeartbeatAsync(CancellationToken token);
+        
+        public Task StartLeaderElectionAsync();
     }
 }

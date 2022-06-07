@@ -11,14 +11,6 @@ namespace Cluster
 {
     internal abstract class NodeBase : INode
     {
-        private ICluster cluster;
-
-        public ICluster Cluseter { get => cluster; set => throw new NotImplementedException(); }
-
-        public abstract bool IsLeader { get; }
-
-        public ILeaderElectionService leaderElectionSvc { get; set; }
-
         public string Identity { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public IPAddress IP { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
@@ -27,16 +19,19 @@ namespace Cluster
 
         public INodeRole CurrentRole { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
-        protected NodeBase(ICluster cluster)
-        {
-            this.cluster = cluster;
-        }
+        public ICluster Cluster { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
-        public NodeBase(ICluster cluster,
-            ILeaderElectionService leaderElectionSvc)
+        public abstract bool IsLeader { get; }
+
+        public IHeartbeatService HeartbeatService { get; }
+
+        public ILeaderElectionService LeaderElectionService { get; }
+
+        public NodeBase(IHeartbeatService heartbeatService,
+            ILeaderElectionService leaderElectionService)
         {
-            this.cluster = cluster;
-            this.leaderElectionSvc = leaderElectionSvc;
+            LeaderElectionService = leaderElectionService;
+            HeartbeatService = heartbeatService;
         }
 
         public void Initialize()
@@ -44,14 +39,23 @@ namespace Cluster
             throw new NotImplementedException();
         }
 
-        public abstract Task AppendDataAsync<T>(T data);
-
-        public Task StartLeaderElectionAsync()
+        public async Task StartLeaderElectionAsync()
         {
-            leaderElectionSvc.SendElectionNotification(this.Cluseter);
-            leaderElectionSvc.Vote();
+            LeaderElectionService.SendElectionNotification(this.Cluster);
+            LeaderElectionService.Vote();
+        }
 
-            return null;
+        public async Task StartHeartbeatAsync(CancellationToken token)
+        {
+            if (IsLeader)
+            {
+                await HeartbeatService.SendHeartbeatAsync(Cluster, token);
+            }
+            else
+            {
+                // await HeartbeatService.MonitorAsync(this.StartLeaderElectionAsync, token);
+                await HeartbeatService.MonitorAsync(LeaderElectionService.StartElection, token);
+            }
         }
     }
 }
