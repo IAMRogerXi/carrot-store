@@ -4,17 +4,13 @@ namespace CSClusterService.WorkerProcessor
 {
     public class TimerJob : BackgroundService
     {
-        private ICluster CurrentCluster { get; }
-
         private INode CurrentNode { get; }
 
         private ILogger Logger { get; }
 
-        public TimerJob(ICluster cluster,
-            INode node,
+        public TimerJob(INode node,
             ILogger logger)
         {
-            CurrentCluster = cluster;
             CurrentNode = node;
             Logger = logger;
         }
