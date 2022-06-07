@@ -8,5 +8,12 @@ namespace SvcClient
 {
     public interface IClient
     {
+        Task GetAsync();
+
+        Task PostAsync();
+
+        Task PatchAsync();
+
+        Task DeleteAsync();
     }
 }

@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v6.0": {
       "ClusterContract/1.0.0": {
         "dependencies": {
+          "MessageContract": "1.0.0",
           "NodeRoleContract": "1.0.0"
         },
         "runtime": {
           "ClusterContract.dll": {}
+        }
+      },
+      "MessageContract/1.0.0": {
+        "runtime": {
+          "MessageContract.dll": {}
         }
       },
       "NodeRoleContract/1.0.0": {
@@ -23,6 +29,11 @@
   },
   "libraries": {
     "ClusterContract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MessageContract/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

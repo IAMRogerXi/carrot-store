@@ -6,6 +6,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "MessageContract": "1.0.0",
           "NodeRoleContract": "1.0.0"
         },
         "compile": {
@@ -13,6 +14,29 @@
         },
         "runtime": {
           "bin/placeholder/ClusterContract.dll": {}
+        }
+      },
+      "ControlMessage/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MessageContract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ControlMessage.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ControlMessage.dll": {}
+        }
+      },
+      "MessageContract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MessageContract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MessageContract.dll": {}
         }
       },
       "NodeRoleContract/1.0.0": {
@@ -43,6 +67,16 @@
       "path": "../ClusterContract/ClusterContract.csproj",
       "msbuildProject": "../ClusterContract/ClusterContract.csproj"
     },
+    "ControlMessage/1.0.0": {
+      "type": "project",
+      "path": "../ControlMessage/ControlMessage.csproj",
+      "msbuildProject": "../ControlMessage/ControlMessage.csproj"
+    },
+    "MessageContract/1.0.0": {
+      "type": "project",
+      "path": "../MessageContract/MessageContract.csproj",
+      "msbuildProject": "../MessageContract/MessageContract.csproj"
+    },
     "NodeRoleContract/1.0.0": {
       "type": "project",
       "path": "../NodeRoleContract/NodeRoleContract.csproj",
@@ -57,6 +91,8 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "ClusterContract >= 1.0.0",
+      "ControlMessage >= 1.0.0",
+      "MessageContract >= 1.0.0",
       "SvcClient >= 1.0.0"
     ]
   },
@@ -95,6 +131,12 @@
           "projectReferences": {
             "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\ClusterContract\\ClusterContract.csproj": {
               "projectPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\ClusterContract\\ClusterContract.csproj"
+            },
+            "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\ControlMessage\\ControlMessage.csproj": {
+              "projectPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\ControlMessage\\ControlMessage.csproj"
+            },
+            "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\MessageContract\\MessageContract.csproj": {
+              "projectPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\MessageContract\\MessageContract.csproj"
             },
             "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\SvcClient\\SvcClient.csproj": {
               "projectPath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\SvcClient\\SvcClient.csproj"

@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using ClusterContract;
 
-namespace Cluster.ServiceContract
+namespace ClusterContract
 {
-    internal interface ILeaderElectionService
+    public interface ILeaderElectionService
     {
         public void SendElectionNotification(ICluster cluster);
 
