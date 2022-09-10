@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ClusterContract;
+using CarrotStoreMsgQ.ClusterContract;
 using SvcClient;
 
 namespace Cluster.Service

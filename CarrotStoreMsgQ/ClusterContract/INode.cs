@@ -4,9 +4,10 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using ClusterContract;
 using NodeRoleContract;
 
-namespace ClusterContract
+namespace CarrotStoreMsgQ.ClusterContract
 {
     public interface INode
     {

@@ -1,4 +1,5 @@
 ﻿using ClusterContract;
+using CarrotStoreMsgQ.ClusterContract;
 
 namespace CSClusterService.WorkerProcessor
 {

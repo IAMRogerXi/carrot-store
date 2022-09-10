@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "edh3kbAt5XshPcEoTKBqC1oQLOGsFelvGC1BCqb5PDGcMAziy22GV29lc2ZcKM0ArVWExdD2Jom75jljmBVmCA==",
+  "dgSpecHash": "0PEcP8DFj1OB+cs6Ytt+BaxSq6gjStasbNY36OI9sLwtUVqp4t1MvL7ao1eLHG2rA/8GUsM7NtPWKUKRYlcKwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\SvcClient\\SvcClient.csproj",
+  "projectFilePath": "C:\\Users\\roxi\\source\\repos\\carrot-store\\CarrotStoreMsgQ\\SvcClient\\SvcClientContract.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

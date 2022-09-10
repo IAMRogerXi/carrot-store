@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ClusterContract;
-using SvcClient;
+﻿using ClusterContract;
 using MessageContract;
+using CarrotStoreMsgQ.ClusterContract;
+using SvcClient;
 
 namespace Cluster.Service
 {
@@ -26,7 +22,7 @@ namespace Cluster.Service
         {
             while (!token.IsCancellationRequested)
             {
-                foreach (var node in cluster.Nodes)
+                //foreach (var node in cluster.Nodes)
                 {
                     // todo: prepare the http request.
                     //client.PostAsync();

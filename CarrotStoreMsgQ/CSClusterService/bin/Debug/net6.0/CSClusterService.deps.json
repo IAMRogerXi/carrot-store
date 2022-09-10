@@ -69,7 +69,7 @@
           "ClusterContract": "1.0.0",
           "ControlMessage": "1.0.0",
           "MessageContract": "1.0.0",
-          "SvcClient": "1.0.0"
+          "SvcClientContract": "1.0.0"
         },
         "runtime": {
           "Cluster.dll": {}
@@ -102,9 +102,17 @@
           "NodeRoleContract.dll": {}
         }
       },
-      "SvcClient/1.0.0": {
+      "SvcClientContract/1.0.0": {
         "runtime": {
-          "SvcClient.dll": {}
+          "SvcClientContract.dll": {}
+        }
+      },
+      "SvcClient/1.0.0.0": {
+        "runtime": {
+          "SvcClient.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -189,8 +197,13 @@
       "serviceable": false,
       "sha512": ""
     },
-    "SvcClient/1.0.0": {
+    "SvcClientContract/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SvcClient/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

@@ -10,7 +10,7 @@
     <ProjectReference Include="..\ClusterContract\ClusterContract.csproj" />
     <ProjectReference Include="..\ControlMessage\ControlMessage.csproj" />
     <ProjectReference Include="..\MessageContract\MessageContract.csproj" />
-    <ProjectReference Include="..\SvcClient\SvcClient.csproj" />
+    <ProjectReference Include="..\SvcClientContract\SvcClientContract.csproj" />
   </ItemGroup>
 
 </Project>

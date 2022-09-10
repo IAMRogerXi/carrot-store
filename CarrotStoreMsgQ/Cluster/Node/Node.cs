@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ClusterContract;
 
-namespace Cluster.Node
+namespace CarrotStoreMsgQ.Cluster.Node
 {
     internal class Node : NodeBase
     {

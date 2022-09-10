@@ -4,10 +4,11 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using CarrotStoreMsgQ.ClusterContract;
 using ClusterContract;
 using NodeRoleContract;
 
-namespace Cluster.Node
+namespace CarrotStoreMsgQ.Cluster.Node
 {
     internal abstract class NodeBase : INode
     {
