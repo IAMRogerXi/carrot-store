@@ -5,7 +5,6 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using CarrotStoreMsgQ.ClusterContract;
-using ClusterContract;
 using NodeRoleContract;
 
 namespace CarrotStoreMsgQ.Cluster.Node

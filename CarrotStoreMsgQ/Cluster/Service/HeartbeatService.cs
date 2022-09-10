@@ -1,5 +1,4 @@
-﻿using ClusterContract;
-using MessageContract;
+﻿using MessageContract;
 using CarrotStoreMsgQ.ClusterContract;
 using SvcClient;
 
