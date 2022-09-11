@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CarrotStoreMsgQ.ClusterContract;
+using CarrotStoreMsgQ.Server.ClusterContract;
 
-namespace CarrotStoreMsgQ.Cluster
+namespace CarrotStoreMsgQ.Server
 {
     internal class Cluster : ICluster
     {
+        public INode? Leader { get; set; }
+
         public INode[] Nodes { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public void Initialize()
@@ -26,6 +28,11 @@ namespace CarrotStoreMsgQ.Cluster
                 ReloadMetaDataFromLeader();
                 PersistsMetaData();
             }
+        }
+
+        public Node FindNode()
+        {
+            return null;
         }
 
         private void LoadDataFromMetaData()

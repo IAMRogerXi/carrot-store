@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MessageContract
+namespace CarrotStoreMsgQ.Payload.MessageContract
 {
     public interface IMessage
     {

@@ -1,5 +1,5 @@
-﻿using MessageContract;
-using CarrotStoreMsgQ.ClusterContract;
+﻿using CarrotStoreMsgQ.Payload.MessageContract;
+using CarrotStoreMsgQ.Server.ClusterContract;
 using SvcClient;
 
 namespace Cluster.Service

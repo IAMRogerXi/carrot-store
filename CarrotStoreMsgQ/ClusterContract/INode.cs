@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using NodeRoleContract;
 
-namespace CarrotStoreMsgQ.ClusterContract
+namespace CarrotStoreMsgQ.Server.ClusterContract
 {
     public interface INode
     {

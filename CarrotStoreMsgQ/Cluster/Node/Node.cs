@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CarrotStoreMsgQ.ClusterContract;
+using CarrotStoreMsgQ.Server.ClusterContract;
 
-namespace CarrotStoreMsgQ.Cluster.Node
+namespace CarrotStoreMsgQ.Server
 {
     internal class Node : NodeBase
     {

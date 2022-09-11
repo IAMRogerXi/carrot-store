@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MessageContract;
+using CarrotStoreMsgQ.Payload.MessageContract;
 
-namespace CarrotStoreMsgQ.ClusterContract
+namespace CarrotStoreMsgQ.Server.ClusterContract
 {
     public interface IHeartbeatService
     {

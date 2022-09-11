@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarrotStoreMsgQ.ClusterContract
+namespace CarrotStoreMsgQ.Server.ClusterContract
 {
     public interface ICluster
     {
