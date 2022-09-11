@@ -1,8 +1,8 @@
 ﻿using CarrotStoreMsgQ.Payload.MessageContract;
 using CarrotStoreMsgQ.Server.ClusterContract;
-using SvcClient;
+using CarrotStoreMsgQ.SvcClient.SvcClientContract;
 
-namespace Cluster.Service
+namespace CarrotStoreMsgQ.Server.Service
 {
     internal class HeartbeatService : IHeartbeatService
     {
@@ -16,7 +16,7 @@ namespace Cluster.Service
         /// <summary>
         /// If this node is the leader, send the heartbeat to all followers.
         /// </summary>
-        /// <param name="cluster"></param>
+        /// <param name="cluster">The cluster that the Node belongs to.</param>
         public async Task SendHeartbeatAsync(ICluster cluster, CancellationToken token)
         {
             while (!token.IsCancellationRequested)
@@ -28,6 +28,7 @@ namespace Cluster.Service
                 }
 
                 // todo: can i use other method to make the thread sleep?
+                // todo: load heartbeat from configuration file.
                 await Task.Delay(10000);
             }
         }

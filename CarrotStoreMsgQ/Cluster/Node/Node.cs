@@ -7,9 +7,10 @@ using CarrotStoreMsgQ.Server.ClusterContract;
 
 namespace CarrotStoreMsgQ.Server
 {
-    internal class Node : NodeBase
+    public class Node : NodeBase
     {
-        public Node(IHeartbeatService heartbeatService, ILeaderElectionService leaderElectionService) : base(heartbeatService, leaderElectionService)
+        public Node(IHeartbeatService heartbeatService, ILeaderElectionService leaderElectionService)
+            : base(heartbeatService, leaderElectionService)
         {
         }
 

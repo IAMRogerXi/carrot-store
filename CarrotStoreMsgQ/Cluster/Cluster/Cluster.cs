@@ -4,22 +4,39 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CarrotStoreMsgQ.Server.ClusterContract;
+using CarrotStoreMsgQ.Server.NodeContract;
 
 namespace CarrotStoreMsgQ.Server
 {
-    internal class Cluster : ICluster
+    public class Cluster : ICluster
     {
         public INode? Leader { get; set; }
 
         public INode[] Nodes { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
+        /// <summary>
+        /// Initialize the cluster basing on the ini file.
+        /// ini file format:
+        /// {
+        ///     "leader":"ip or FQDN",
+        ///     [
+        ///         {
+        ///             "server1":"ip or FQDN",
+        ///         },
+        ///         {
+        ///             "server2":"ip or FQDN",
+        ///         },
+        ///         ...
+        ///     ]
+        /// }
+        /// </summary>
         public void Initialize()
         {
             LoadDataFromMetaData();
 
             foreach (var node in Nodes)
             {
-                node.Initialize();
+                node.Initialize(this);
             }
 
             if (!PingLeader())
@@ -30,7 +47,7 @@ namespace CarrotStoreMsgQ.Server
             }
         }
 
-        public Node FindNode()
+        public INode FindNode()
         {
             return null;
         }

@@ -5,8 +5,9 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using NodeRoleContract;
+using CarrotStoreMsgQ.Server.ClusterContract;
 
-namespace CarrotStoreMsgQ.Server.ClusterContract
+namespace CarrotStoreMsgQ.Server.NodeContract
 {
     public interface INode
     {
@@ -21,11 +22,15 @@ namespace CarrotStoreMsgQ.Server.ClusterContract
         bool IsLeader { get; }
 
         INodeRole CurrentRole { get; set; }
-        
-        public void Initialize();
 
-        public Task StartHeartbeatAsync(CancellationToken token);
-        
+        int HeartbeatTimeout { get; set; }
+
+        public void Initialize(ICluster cluster);
+
+        public Task SendHeartbeatAsync(CancellationToken token);
+
+        public Task ReceiveHeartbeatAsync();
+
         public Task StartLeaderElectionAsync();
     }
 }

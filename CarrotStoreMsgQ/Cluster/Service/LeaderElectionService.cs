@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CarrotStoreMsgQ.Server.ClusterContract;
-using SvcClient;
+using CarrotStoreMsgQ.Server.NodeContract;
+using CarrotStoreMsgQ.SvcClient.SvcClientContract;
 
-namespace Cluster.Service
+namespace CarrotStoreMsgQ.Server.Service
 {
     internal class LeaderElectionService : ILeaderElectionService
     {

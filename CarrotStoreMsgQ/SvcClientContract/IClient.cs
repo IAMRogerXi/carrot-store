@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SvcClient
+namespace CarrotStoreMsgQ.SvcClient.SvcClientContract
 {
     public interface IClient
     {

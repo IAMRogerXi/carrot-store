@@ -4,12 +4,13 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using CarrotStoreMsgQ.Server.NodeContract;
 using CarrotStoreMsgQ.Server.ClusterContract;
 using NodeRoleContract;
 
 namespace CarrotStoreMsgQ.Server
 {
-    internal abstract class NodeBase : INode
+    public abstract class NodeBase : INode
     {
         public string Identity { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
@@ -23,6 +24,8 @@ namespace CarrotStoreMsgQ.Server
 
         public abstract bool IsLeader { get; }
 
+        public int HeartbeatTimeout { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
         public IHeartbeatService HeartbeatService { get; }
 
         public ILeaderElectionService LeaderElectionService { get; }
@@ -34,9 +37,9 @@ namespace CarrotStoreMsgQ.Server
             HeartbeatService = heartbeatService;
         }
 
-        public void Initialize()
+        public void Initialize(ICluster cluster)
         {
-            throw new NotImplementedException();
+            this.Cluster = cluster;
         }
 
         public async Task StartLeaderElectionAsync()
@@ -45,7 +48,16 @@ namespace CarrotStoreMsgQ.Server
             LeaderElectionService.Vote();
         }
 
-        public async Task StartHeartbeatAsync(CancellationToken token)
+        public async Task ReceiveHeartbeatAsync()
+        {
+            // need a timespam here.
+            if (HeartbeatTimeout > 0)
+            {
+                await StartLeaderElectionAsync();
+            }
+        }
+
+        public async Task SendHeartbeatAsync(CancellationToken token)
         {
             if (IsLeader)
             {
